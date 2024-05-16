@@ -1,0 +1,348 @@
+*{
+    margin:0;
+    border: border-box;
+}
+
+.heading{
+    color:#fdfdfd;
+    font-size: 90px;
+    padding-left: 10px;
+    display: flex;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    align-items: center;
+    height: 120px;
+    background-image: repeating-linear-gradient(145deg,#282627 , #1e1614 10%);
+}
+
+.navbar{
+    background-color: #fdfdfd;
+    position: sticky;
+    top:0px;
+    margin-left: 1rem;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navdet{
+    margin-top: 2px;
+    height: 100%;
+    width:870px;
+    display: flex;
+    justify-content: center;
+}
+
+.navcon{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 1rem 0 1rem;
+    color:#061221;
+    width:max-content;
+    height:100%;
+}
+
+.navcon:hover{
+    background-color: black;
+    color: white;
+}
+
+.down{
+    margin-left: 1rem;
+}
+
+.icon{
+    height: 100%;
+    width:50px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover{
+    border: black 2px solid;
+}
+
+.news{
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+}
+
+.newc{
+    margin-left:20px;
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newone{
+    font-size: 1.06rem;
+    width:170px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newicon{
+    height: 100%;
+    width:20px;
+    display: flex;
+    align-items: center;
+}
+
+.newtwo{
+    display: flex;
+    align-items: center;
+    width:310px;
+    color:grey;
+    font-size:1.22rem;
+}
+
+.weather{
+    display: flex;
+    align-items: center;
+    width:260px;
+    margin-right: 20px;
+    color:grey;
+    font-size: 1.27rem;
+}
+
+.wicon{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 1rem;
+}
+
+.main{
+    height:650px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.m1{
+    height: 540px;
+    width: 510px;
+    margin-left: 1.5rem ;
+    background-image: url("news1.jpg");
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.det{
+    position: relative;
+    top:315px;
+    height:200px;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem ;
+}
+
+#b1{
+    height: 1.6rem;
+    width:max-content;
+    padding: 0px 20px 0px 20px;
+    background-color: black;
+    color:white;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1.1rem;
+    margin-right:0.7rem ;
+}
+
+#b1:hover{
+    transform: scale(1.2, 1.2);
+}
+
+.logo{
+    display: inline-block;
+    border: red 2px solid;
+    margin-left: 1rem ;
+    margin-right:1rem ;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-image: url("icon.jpg");
+    background-size: cover;
+}
+
+.label{
+    margin-top: 225px;
+    color:white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.date{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+.calender{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.m2{
+    margin-left: 1.5rem;
+    width:255px;
+    font-size: 1rem;
+    background-image: url("news2.jpg");
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.m3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 83%;
+    margin-left: 1.5rem;
+    width:255px;
+}
+
+.up{
+    height: 47%;
+    font-size: 1rem;
+    background-image: url("news3.jpg");
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.ddown{
+    margin: 0;
+    height: 47%;
+    background-image: url("news4.jpg");
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.sdet{
+    position: relative;
+    top:30px;
+    height:80px;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.slabel{
+    margin-top: 35px;
+    color:white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.last{
+    height: 90%;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    background-color: #f9f9f9;
+    border-radius: 5%;
+}
+
+.switch{
+    height:75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    justify-content: space-around;
+}
+
+#b2{
+    height: 90%;
+    width: 170px;
+    font-size: 2rem;
+    color:white;
+    background-color: black;
+}
+
+#b3 {
+    height: 90%;
+    width: 170px;
+    font-size: 2rem;
+    background-color: #ffffff;
+}
+
+#b2:hover , #b3:hover{
+    border-radius: 20%;
+    background-color: grey;
+    color: white;
+}
+
+.slide1{
+    position: relative;
+    top:1%;
+    overflow: hidden;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.n1{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2); 
+    height:110px;
+    padding: 0.7rem;
+    display: flex;
+    overflow-y: scroll;
+}
+
+.n1:hover{
+    border-radius: 40px 40px 20px 20px; 
+}
+
+.slide2{
+    position: relative;
+    top:1%;
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slidenews{
+    width: 70%;
+    margin-left: 1rem;
+    margin-bottom:20px ;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.m1:hover , .m2:hover , .m3:hover{
+    border: black 2px dotted;
+}
+
+.m1:hover , .m2:hover , .up:hover , .ddown:hover .sdet{ 
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
