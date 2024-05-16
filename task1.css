@@ -47,6 +47,7 @@
 .navcon:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 .down{
@@ -64,6 +65,7 @@
 
 .icon:hover{
     border: black 2px solid;
+    cursor: pointer;
 }
 
 .news{
@@ -165,6 +167,7 @@
 
 #b1:hover{
     transform: scale(1.2, 1.2);
+    cursor: pointer;
 }
 
 .logo{
@@ -265,6 +268,7 @@
 }
 
 .switch{
+    margin-top: 10px;
     height:75px;
     width: 100%;
     display: flex;
@@ -292,6 +296,7 @@
     border-radius: 20%;
     background-color: grey;
     color: white;
+    cursor: pointer;
 }
 
 .slide1{
@@ -315,6 +320,8 @@
 
 .n1:hover{
     border-radius: 40px 40px 20px 20px; 
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .slide2{
