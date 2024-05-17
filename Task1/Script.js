@@ -16,8 +16,6 @@ function display2() {
 
 }
 
-
-
 function display1() {
     var slide1 = document.getElementsByClassName("slide1")[0];
     var slide2 = document.getElementsByClassName("slide2")[0];
