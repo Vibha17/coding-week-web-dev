@@ -1,8 +1,4 @@
-var nav = document.querySelector("#h") ;
-
-nav.style.backgroundColor = "#322C2B";
-nav.style.color = "#E4C59E";
-
+var nav = document.getElementById("h");
 
 const api = "https://coding-week-2024-api.onrender.com/api/data";
 
@@ -75,7 +71,7 @@ fetch(api)
         nav.style.backgroundColor = "#E4C59E";
         nav.style.color = "#322C2B";
         nav.style.borderBottom = "#322C2B 2px solid";
-        nav = document.querySelector("l") ;
+        var nav = document.querySelector("l") ;
         nav.style.backgroundColor = "#322C2B";
         nav.style.color = "#E4C59E";
 
@@ -115,7 +111,7 @@ fetch(api)
         nav.style.backgroundColor = "#E4C59E";
         nav.style.color = "#322C2B";
         nav.style.borderBottom = "#322C2B 2px solid";
-        nav = document.querySelector("#hi") ;
+        var nav = document.querySelector("#hi") ;
         nav.style.backgroundColor = "#322C2B";
         nav.style.color = "#E4C59E";
         
@@ -155,7 +151,7 @@ fetch(api)
         nav.style.backgroundColor = "#E4C59E";
         nav.style.color = "#322C2B";
         nav.style.borderBottom = "#322C2B 2px solid";
-        nav = document.querySelector("#f") ;
+        var nav = document.querySelector("#f") ;
         nav.style.backgroundColor = "#322C2B";
         nav.style.color = "#E4C59E";
         
@@ -195,7 +191,7 @@ fetch(api)
         nav.style.backgroundColor = "#E4C59E";
         nav.style.color = "#322C2B";
         nav.style.borderBottom = "#322C2B 2px solid";
-        nav = document.querySelector("#s") ;
+        var nav = document.querySelector("#s") ;
         nav.style.backgroundColor = "#322C2B";
         nav.style.color = "#E4C59E";
         
@@ -235,7 +231,7 @@ fetch(api)
         nav.style.backgroundColor = "#E4C59E";
         nav.style.color = "#322C2B";
         nav.style.borderBottom = "#322C2B 2px solid";
-        nav = document.querySelector("#h") ;
+        var nav = document.querySelector("#h") ;
         nav.style.backgroundColor = "#322C2B";
         nav.style.color = "#E4C59E";
         
@@ -279,7 +275,7 @@ fetch(api)
         nav.style.backgroundColor = "#E4C59E";
         nav.style.color = "#322C2B";
         nav.style.borderBottom = "#322C2B 2px solid";
-        nav = document.querySelector("#n") ;
+        var nav = document.querySelector("#n") ;
         nav.style.backgroundColor = "#322C2B";
         nav.style.color = "#E4C59E";
         
@@ -316,10 +312,5 @@ fetch(api)
     
 });
 
-var nav = document.querySelector("#h") ;
 
-nav.style.backgroundColor = "#322C2B";
-nav.style.color = "#E4C59E";
-
-var nav;
 
