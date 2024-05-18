@@ -16,6 +16,7 @@
 }
 
 .navbar{
+    z-index: +1;
     background-color: #fdfdfd;
     position: sticky;
     top:0px;
@@ -315,7 +316,7 @@
     height:110px;
     padding: 0.7rem;
     display: flex;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .n1:hover{
@@ -352,4 +353,96 @@
 .m1:hover , .m2:hover , .up:hover , .ddown:hover .sdet{ 
     color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+@media only screen and (max-width:500px){
+    .heading{
+        font-size:50px;
+    }
+    .navbar{
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-highlight-color: #1e1614;
+    }
+    .news{
+        padding: 0px;
+        height: 100px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .newc{
+        width: auto;
+        margin-left:5px;
+    }
+    .weather{
+        margin-left:5px;
+    }
+   .main{
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;;
+   }
+
+   .m1 ,.m2 , .m3{
+    margin: 0;
+    width: 200%;
+    gap: 1rem;
+   }
+
+   .last{
+    display: none;
+   }
+
+}
+
+@media only screen and ( max-width:800px) {
+    .heading{
+        max-width: 800px;
+        font-size:50px;
+    }
+    .navbar{
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .news{
+        margin-bottom: 1rem;
+        padding: 0px;
+        height: 100px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .newc{
+        width: auto;
+        margin-left:5px;
+    }
+    .weather{
+        margin-left:5px;
+    }
+    
+   .last{
+    display: none;
+   }
+   
+}
+
+@media only screen and (max-width:1240px){
+    .m1{
+        margin-left: 0;
+    }
+
+    .main{
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 60%;
+        transform:scale(0.7,0.7);
+    }
+
+    .last{
+        position: absolute;
+        bottom: 15%;
+        left: 140%;
+        transform:scale(0.9,0.9);
+    }
+
 }
